@@ -7,16 +7,15 @@ import GetStartedDialog from './GetStartedDialog';
 
 const HeroSection = ({ isDialogOpen, onGetStarted, onCloseDialog }) => {
   const handleWatchDemo = () => {
-    // Handle demo video or demo scheduling logic
     console.log("Watch demo clicked");
   };
 
   return (
-    <div className="relative min-h-screen bg-black">
+    <div className="relative min-h-screen bg-white dark:bg-black transition-colors duration-200">
       {/* Background Pattern/Gradient */}
       <div className="absolute inset-0">
         <div
-          className="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-purple-500/20"
+          className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-purple-500/10 dark:from-indigo-500/20 dark:to-purple-500/20"
           aria-hidden="true"
         />
       </div>
@@ -29,14 +28,14 @@ const HeroSection = ({ isDialogOpen, onGetStarted, onCloseDialog }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
           {/* Main Hero Content */}
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
               Transform Your Hiring With{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
                 AI-Powered Insights
               </span>
             </h1>
 
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+            <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
               Streamline your recruitment process with advanced AI screening and expert
               human oversight. Get better candidates, faster.
             </p>
@@ -53,7 +52,7 @@ const HeroSection = ({ isDialogOpen, onGetStarted, onCloseDialog }) => {
 
               <button
                 onClick={handleWatchDemo}
-                className="px-8 py-4 rounded-lg font-medium border border-gray-700 text-white hover:bg-gray-800 transition-all"
+                className="px-8 py-4 rounded-lg font-medium border border-gray-300 dark:border-gray-700 text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all"
               >
                 Watch Demo
               </button>
@@ -61,12 +60,14 @@ const HeroSection = ({ isDialogOpen, onGetStarted, onCloseDialog }) => {
 
             {/* Trust Badges */}
             <div className="mt-12">
-              <p className="text-sm text-gray-400 mb-4">Trusted by leading companies</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+                Trusted by leading companies
+              </p>
               <div className="flex justify-center space-x-8">
                 {[1, 2, 3, 4].map((i) => (
                   <div
                     key={i}
-                    className="h-8 w-24 bg-gray-800 rounded opacity-50 hover:opacity-100 transition-opacity"
+                    className="h-8 w-24 bg-gray-200 dark:bg-gray-800 rounded opacity-50 hover:opacity-100 transition-opacity"
                   />
                 ))}
               </div>

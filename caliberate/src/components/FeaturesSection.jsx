@@ -1,38 +1,38 @@
 "use client";
 
 import React from 'react';
-import { Code, Brain, Shield, Clock, Cloud, Zap } from 'lucide-react';
+import { Code, Terminal, Users, Clock, FileCode, Laptop } from 'lucide-react';
 
 const features = [
   {
-    icon: Brain,
-    title: "AI-Powered Screening",
-    description: "Advanced algorithms analyze candidate responses in real-time for deeper insights."
+    icon: Terminal,
+    title: "Expert Technical Screening",
+    description: "Senior developers conduct in-depth technical interviews tailored to your stack."
   },
   {
-    icon: Shield,
-    title: "Bias Prevention",
-    description: "Structured evaluation criteria ensure fair and objective assessments."
+    icon: Users,
+    title: "Peer Assessment",
+    description: "Developers evaluating developers ensures accurate skill assessment."
   },
   {
     icon: Clock,
-    title: "Time Efficiency",
-    description: "Reduce hiring time by 60% with automated initial screenings."
+    title: "Flexible Scheduling",
+    description: "Choose between face-to-face or remote technical interviews at your convenience."
   },
   {
     icon: Code,
-    title: "Technical Assessment",
-    description: "Built-in coding challenges and architecture design interviews."
+    title: "Real-world Challenges",
+    description: "Live coding sessions and system design discussions based on actual scenarios."
   },
   {
-    icon: Cloud,
-    title: "Cloud Integration",
-    description: "Seamlessly integrate with your existing HR management systems."
+    icon: FileCode,
+    title: "Custom Evaluation",
+    description: "Technical assessments customized to your team's specific requirements."
   },
   {
-    icon: Zap,
-    title: "Instant Reports",
-    description: "Get detailed candidate evaluations immediately after interviews."
+    icon: Laptop,
+    title: "Comprehensive Reports",
+    description: "Detailed technical feedback from experienced developers after each interview."
   }
 ];
 
@@ -42,10 +42,10 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Powerful Features for Modern Hiring
+            Technical Hiring Done Right
           </h2>
           <p className="text-xl text-gray-400">
-            Everything you need to streamline your recruitment process
+            Developer-led interviews that actually assess technical capability
           </p>
         </div>
 

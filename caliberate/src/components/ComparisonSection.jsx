@@ -6,29 +6,29 @@ import { Check, X } from 'lucide-react';
 const ComparisonSection = () => {
   const comparisons = [
     {
-      traditional: "Manual resume screening",
-      modern: "AI-powered candidate analysis",
-      benefit: "90% faster initial screening"
+      traditional: "Non-technical recruiters screening developers",
+      modern: "Senior developers reviewing technical skills",
+      benefit: "95% better technical assessment accuracy"
     },
     {
-      traditional: "Subjective interviews",
-      modern: "Structured AI + expert assessment",
-      benefit: "70% more accurate predictions"
+      traditional: "Generic behavioral interviews",
+      modern: "In-depth technical discussions & pair programming",
+      benefit: "85% better skill evaluation"
     },
     {
-      traditional: "Limited candidate pool",
-      modern: "Global talent access",
-      benefit: "5x larger qualified candidate pool"
+      traditional: "Keyword matching resumes",
+      modern: "Real-world coding challenges & system design",
+      benefit: "3x more qualified candidates identified"
     },
     {
-      traditional: "Bias-prone decisions",
-      modern: "Objective data-driven choices",
-      benefit: "80% reduction in hiring bias"
+      traditional: "Standardized technical tests",
+      modern: "Customized technical interviews by domain experts",
+      benefit: "90% hiring manager satisfaction"
     },
     {
-      traditional: "Delayed feedback loops",
-      modern: "Real-time insights",
-      benefit: "Immediate performance metrics"
+      traditional: "HR-driven technical screening",
+      modern: "Peer-level technical assessment",
+      benefit: "4x reduction in bad hires"
     }
   ];
 
@@ -37,10 +37,10 @@ const ComparisonSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Why Choose Modern Hiring
+            Why Choose Developer-Led Hiring
           </h2>
           <p className="text-xl text-gray-400">
-            See how our platform transforms traditional recruitment
+            See how technical experts transform your engineering recruitment
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const ComparisonSection = () => {
             <thead>
               <tr className="border-b border-gray-800">
                 <th className="py-4 px-6 text-left text-gray-400">Traditional Process</th>
-                <th className="py-4 px-6 text-left text-gray-400">Our Platform</th>
+                <th className="py-4 px-6 text-left text-gray-400">Our Technical Process</th>
                 <th className="py-4 px-6 text-left text-gray-400">Your Benefit</th>
               </tr>
             </thead>

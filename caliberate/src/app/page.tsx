@@ -29,12 +29,11 @@ return (
       onGetStarted={handleGetStarted}
       onCloseDialog={handleCloseDialog}
     />
-    <AboutSection /> 
+    <AboutSection />
     <HowItWorksSection />
     <FeaturesSection />
     <ComparisonSection />
     <TestimonialsSection />
-    <IntegrationSection />
     <PricingSection onGetStarted={handleGetStarted} />
     <CTASection onGetStarted={handleGetStarted} />
   </main>
